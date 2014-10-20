@@ -1,0 +1,30 @@
+{
+	"fonts" : {
+		"arial" : "fonts/arial.ttf"
+	},
+	
+	"styles" : {
+		"default" :  { "font": "arial" , "size":10, "color" : [10,255,100] }
+	},
+	
+	"template" : "output/sample1.pdf",
+	
+	"pages" : [
+		{
+			"items" : [
+				{ "text" : "Text added to existing PDF", "x" : 400, "y" : 600 }		
+			]
+		},{},
+		{
+			"items" : [
+				{ "text" : "Text on new page for existing PDF", "x" : 400, "y" : 600 }		
+			]
+		} 
+	
+	]
+
+
+
+
+
+}

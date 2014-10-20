@@ -1,0 +1,32 @@
+{
+  "name": "pdf-gen",
+  "version": "0.0.3",
+  "description": "Generates PDF using Hummus PDF Writer with JS config objects",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "hummus"
+  ],
+  "dependencies": { 
+	"hummus": "~1.0.31"
+  },
+  "engines": {
+    "node": "~0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rossgp/pdf-gen.git"
+  },  
+  "readme": "",
+  "readmeFilename": "README.md",  
+  "author": "Ross Prangnell",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}

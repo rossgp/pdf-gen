@@ -1,0 +1,35 @@
+{
+	"fonts" : {
+		"arial" : "fonts/arial.ttf"
+	},
+	
+	"styles" : {
+		"default" :  { "font": "arial" , "size":10, "color" : [10,255,100] },
+		"header" :  { "font": "arial" , "size":10, "color" : [255,0,0] }	
+	},
+	
+	"header" : { "items" : [
+		{ "text" : "Header Text", "x" : 20, "y" : 800, "style" : "header" },
+		{ "text" : "Override color", "x" : 200, "y" : 800, "style" : "header", "color": [0,0,255] }
+	
+	]},
+	
+	"pages" : [
+		{
+			"items" : [
+				{ "text" : "Sample Text with default style", "x" : 20, "y" : 750 },		
+				{ "text" : "This {testField} is from the supplied data", "x" : 20, "y" : 730 },						
+				{ "type" : "rect", "x" : 20, "y" : 600, "width" : 30, "height" : 50, "size": 5, "fill" : true },
+				{ "type" : "image", "x" : 20, "y" : 250, "location" : "images/image1.jpg" },
+				{ "type" : "circle", "x" : 150, "y" : 600, "radius" : 50, "size": 5 , "color" : [255,0,0] }
+			]
+		},
+		{} 
+	
+	]
+
+
+
+
+
+}
