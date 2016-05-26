@@ -1,6 +1,6 @@
 {
   "name": "pdf-gen",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Generates PDF using Hummus PDF Writer with JS config objects",
   "main": "./lib",
   "scripts": {
